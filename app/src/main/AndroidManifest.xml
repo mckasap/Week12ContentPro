@@ -10,6 +10,7 @@
     <permission android:name="org.kasapbasi.mycontentprovider.StudentsProvider.WRITE_DATABASE"></permission>
 <permission android:name="org.kasapbasi.mycontentprovider.StudentsProvider.READ_DATABASE"></permission>
 
+
     <application
 
         android:icon="@mipmap/ic_launcher"
