@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.kasapbasi.week12contentpro">
+
+    <permission  android:name="org.kasapbasi.mycontentprovider.StudentsProvider.permission.READ_PROVIDER">
+
+    </permission>
+    <permission  android:name="org.kasapbasi.mycontentprovider.StudentsProvider.permission.WRITE_PROVIDER">
+    </permission>
+    <permission android:name="org.kasapbasi.mycontentprovider.StudentsProvider.WRITE_DATABASE"></permission>
+<permission android:name="org.kasapbasi.mycontentprovider.StudentsProvider.READ_DATABASE"></permission>
+
+    <application
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Week12ContentPro">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
